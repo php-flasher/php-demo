@@ -8,7 +8,7 @@
 return array(
     'default' => 'toastr',
     'root_scripts' => array(
-        'https://cdn.jsdelivr.net/npm/@flasher/flasher@0.1.3/dist/flasher.min.js',
+        'https://cdn.jsdelivr.net/npm/@flasher/flasher@1.0.16/dist/flasher.min.js',
     ),
     'adapters' => array(
         'toastr' => array(
