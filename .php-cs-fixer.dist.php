@@ -53,6 +53,8 @@ $rules = array(
     'php_unit_strict' => false,
     'native_constant_invocation' => array('scope' => 'namespaced'),
     'phpdoc_return_self_reference' => true,
+    'binary_operator_spaces' => array('operators' => array('=' => 'align')),
+    'return_assignment' => false,
 );
 
 $finder = new PhpCsFixer\Finder();

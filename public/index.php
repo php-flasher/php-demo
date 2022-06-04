@@ -7,6 +7,7 @@
 
 include_once __DIR__.'/../includes/init.php';
 
-flasher()->addSuccess('This is a success message');
+flasher()->addSuccess('Data saved successfully');
+toastr()->addSuccess('Data saved successfully');
 
-header('Location: /account.php');
+header('Location: account.php');
